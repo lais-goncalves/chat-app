@@ -1,0 +1,27 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./setup/server.js",
+	"scripts": {
+		"start": "node ./setup/server.js",
+		"dev": "nodemon ./setup/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"better-sqlite3": "^10.0.0",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"express": "^4.19.2",
+		"express-session": "^1.18.0",
+		"memorystore": "^1.6.7",
+		"socket.io": "^4.7.5",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"ejs": "^3.1.10",
+		"nodemon": "^3.1.0"
+	}
+}

@@ -1,0 +1,51 @@
+@import url("../../estilos/_variaveis.css");
+
+.form-grupo,
+.form-conteiner {
+	width: fit-content;
+	max-width: 30vw;
+	margin: 20px 0 40px;
+	border-radius: var(--radius);
+}
+
+.form-grupo {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.form-grupo * {
+	width: fit-content;
+	margin: 0;
+}
+
+.form-grupo :not(input) {
+	padding: 0;
+}
+
+.form-grupo--titulo {
+	margin-bottom: 10px;
+}
+
+.form-conteiner {
+	border: 3px solid var(--cor-fonte);
+	padding: 0 20px 20px;
+}
+
+.form-conteiner--titulo {
+	max-width: fit-content;
+	margin-top: -15px;
+	padding: 4px 10px;
+	background-color: var(--cor-back);
+}
+
+.form-wrap-radio {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.form-wrap-radio label {
+	font-weight: bold;
+	margin: 0 5px;
+}

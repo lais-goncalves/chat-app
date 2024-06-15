@@ -1,0 +1,106 @@
+@import url("_variaveis.css");
+
+* {
+	box-sizing: border-box;
+	color: var(--cor-fonte);
+	font-family: var(--fonte-normal);
+	transition: 0.1s;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+body {
+	background: var(--cor-back);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--fonte-titulo);
+	font-weight: bold;
+}
+
+a {
+	color: var(--azul-medio-2);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	background-color: var(--cor-back-sec);
+	border: none;
+	border-radius: var(--radius-sec);
+	font-size: 20px;
+	padding: 7px 10px;
+	margin: 0 0 10px;
+}
+
+button,
+input[type="submit"] {
+	background-color: transparent;
+	border: 3px solid var(--cor-fonte);
+	transition: 0.1s;
+	padding: 5px 10px;
+}
+
+button,
+input[type="submit"]:hover {
+	--cor-btn: var(--cor-back-ter);
+
+	cursor: pointer;
+	background: var(--cor-btn);
+	border-color: var(--cor-btn);
+	color: var(--cor-fonte-sec);
+}
+
+.App {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+}
+
+#navbar,
+.pagina {
+	padding: 8vh 25px;
+}
+
+#navbar {
+	max-width: 150px;
+	width: fit-content;
+}
+
+.pagina {
+	flex: 1;
+	margin: 0 30px;
+}
+
+.titulo {
+	margin-bottom: 30px;
+}
+
+.titulo * {
+	margin: 0;
+	padding: 0;
+}
+
+.p-aviso {
+	color: red;
+}

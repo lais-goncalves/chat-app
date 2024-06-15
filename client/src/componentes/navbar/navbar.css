@@ -1,0 +1,26 @@
+@import url("../../estilos/_variaveis.css");
+
+#navbar {
+	background-color: var(--cor-back-ter);
+	box-shadow: var(--sombra);
+	width: 100%;
+	margin: 0;
+}
+
+#navbar-lista {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navbar-lista .navbar-link {
+	margin: 10px 0 43px;
+}
+
+#navbar-lista .navbar-link a {
+	color: var(--cor-fonte-sec);
+	font-size: 18px;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Outfit&display=swap");
+
+:root {
+	--azul-escuro: #04092f;
+	--azul-medio: #121c53;
+	--azul-medio-2: #3a0ca3;
+	--roxo-escuro: #20042f;
+	--roxo-medio: #4d096c;
+
+	--cinza-claro-1: #f2f2f7;
+	--cinza-claro: #e4e4ee;
+	--cinza-escuro: #222;
+
+	--cor-back: var(--cinza-claro);
+	--cor-back-sec: var(--cinza-claro-1);
+	--cor-back-ter: var(--azul-medio);
+
+	--cor-fonte: var(--azul-escuro);
+	--cor-fonte-sec: var(--cinza-claro-1);
+
+	--fonte-titulo: "Poppins";
+	--fonte-normal: "Outfit";
+
+	--radius: 8px;
+	--radius-sec: 5px;
+
+	--sombra: 0 5px 10px #04092f20;
+}
